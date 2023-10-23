@@ -1,0 +1,27 @@
+{
+    "name": "httpsnippet-browser",
+    "version": "1.0.0",
+    "description": "Use httpsnippet package directly in the browser",
+    "main": "dist/httpsnippet-browser.js",
+    "type": "module",
+    "license": "MIT",
+    "devDependencies": {
+        "assert": "^2.0.0",
+        "browserify-zlib": "^0.2.0",
+        "buffer": "^6.0.3",
+        "crypto-browserify": "^3.12.0",
+        "https-browserify": "^1.0.0",
+        "httpsnippet": "^3.0.1",
+        "path-browserify": "^1.0.1",
+        "stream-browserify": "^3.0.0",
+        "stream-http": "^3.2.0",
+        "timers-browserify": "^2.0.12",
+        "url": "^0.11.0",
+        "util": "^0.12.5",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.0"
+    },
+    "scripts": {
+        "build": "webpack"
+    }
+}

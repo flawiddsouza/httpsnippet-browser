@@ -1,0 +1,30 @@
+<script type="module">
+import { HTTPSnippet } from './httpsnippet-browser.js'
+
+const har = {
+    method: 'POST',
+    url: 'https://postman-echo.com/post',
+    headers: [
+        {
+            name: 'Content-Type',
+            value: 'application/json'
+        }
+    ],
+    postData: {
+        mimeType: 'application/json',
+        text: '{"foo": "bar"}'
+    }
+}
+
+const snippet = new HTTPSnippet(har)
+
+const output = snippet.convert('shell', 'curl', {
+    indent: '    '
+})
+
+document.querySelector('div').innerHTML = output
+document.querySelector('div').style.whiteSpace = 'pre'
+</script>
+
+<div>
+</div>
