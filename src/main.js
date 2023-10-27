@@ -1,3 +1,3 @@
-import { HTTPSnippet } from 'httpsnippet'
+import { HTTPSnippet } from '@flawiddsouza/httpsnippet'
 
 export { HTTPSnippet }
