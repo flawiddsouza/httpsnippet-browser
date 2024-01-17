@@ -1,6 +1,6 @@
 {
     "name": "httpsnippet-browser",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Use httpsnippet package directly in the browser",
     "main": "dist/httpsnippet-browser.js",
     "type": "module",

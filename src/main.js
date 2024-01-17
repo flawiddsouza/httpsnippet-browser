@@ -1,3 +1,3 @@
-import { HTTPSnippet } from '@flawiddsouza/httpsnippet'
+import { HTTPSnippet, availableTargets } from '@flawiddsouza/httpsnippet'
 
-export { HTTPSnippet }
+export { HTTPSnippet, availableTargets }
